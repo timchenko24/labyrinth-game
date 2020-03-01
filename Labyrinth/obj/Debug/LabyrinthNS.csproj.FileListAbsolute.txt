@@ -1,0 +1,17 @@
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\MainWindow.g.cs
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\App.g.cs
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\Labyrinth_MarkupCompile.cache
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\Labyrinth_MarkupCompile.lref
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\bin\Debug\Labyrinth.exe.config
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\bin\Debug\Labyrinth.exe
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\bin\Debug\Labyrinth.pdb
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\MainWindow.baml
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\Labyrinth.g.resources
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\LabyrinthNS.csproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\Labyrinth.exe
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\Labyrinth.pdb
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\LabyrinthNS.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Desktop\Labyrinth\Labyrinth\obj\Debug\LabyrinthNS.Properties.Resources.resources
+C:\Users\Tim\Desktop\Файлы\Labyrinth\Labyrinth\bin\Debug\Labyrinth.exe.config
+C:\Users\Tim\Desktop\Файлы\Labyrinth\Labyrinth\obj\Debug\Labyrinth.exe
+C:\Users\Tim\Desktop\Файлы\Labyrinth\Labyrinth\obj\Debug\Labyrinth.pdb

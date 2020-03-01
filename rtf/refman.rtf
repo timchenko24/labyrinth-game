@@ -1,0 +1,3063 @@
+{\rtf1\ansi\ansicpg1251\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset204\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset204\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset204\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\info 
+{\title {\comment Labyrinth  {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+V1 \par
+}}Labyrinth}
+{\comment \'D1\'EE\'E7\'E4\'E0\'ED\'EE \'F1\'E8\'F1\'F2\'E5\'EC\'EE\'E9Doxgyen. }
+{\creatim \yr2017\mo2\dy10\hr16\min39\sec35}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt Labyrinth}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+\'C2\'E5\'F0\'F1\'E8\'FF V1\par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt \'CF\'F2 10 \'D4\'E5\'E2 2017 }}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'CE\'E3\'EB\'E0\'E2\'EB\'E5\'ED\'E8\'E5\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2 \'E8\'EC\'E5\'ED\par \pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2 \'E8\'EC\'E5\'ED}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CF\'E0\'EA\'E5\'F2\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CF\'EE\'EB\'ED\'FB\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'E4\'EE\'EA\'F3\'EC\'E5\'ED\'F2\'E8\'F0\'EE\'E2\'E0\'ED\'ED\'FB\'F5 \'EF\'E0\'EA\'E5\'F2\'EE\'E2.}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b LabyrinthNS} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Properties} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'F7\'E5\'F1\'EA\'E8\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'C8\'E5\'F0\'E0\'F0\'F5\'E8\'FF \'EA\'EB\'E0\'F1\'F1\'EE\'E2.}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Application
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+LabyrinthNS.App\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.App\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.App\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+LabyrinthNS.Cell\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+IComponentConnector
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+LabyrinthNS.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+LabyrinthNS.Labyrinth\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.Player\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.SpecialCell\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+LabyrinthNS.Bandit\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.God\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.Grave\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.Medkit\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.Teleport\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.Undead\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAES \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+LabyrinthNS.SpecialCellsManager\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+Window
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+LabyrinthNS.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+LabyrinthNS.MainWindow\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2\par \pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC \'EA\'EB\'E0\'F1\'F1\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CA\'EB\'E0\'F1\'F1\'FB \'F1 \'E8\'F5 \'EA\'F0\'E0\'F2\'EA\'E8\'EC \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\'EC.}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b LabyrinthNS.App} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF App.xaml })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Bandit} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Cell} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.God} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Grave} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABY \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Labyrinth} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.MainWindow} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF MainWindow.xaml })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Medkit} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Player} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.SpecialCell} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.SpecialCellsManager} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Teleport} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b LabyrinthNS.Undead} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAES \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'D1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2\par \pard\plain 
+{\tc \v \'D1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB\'FB\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid \'CF\'EE\'EB\'ED\'FB\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'F4\'E0\'E9\'EB\'EE\'E2.}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b App.xaml.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Bandit.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Cell.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b God.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Grave.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Labyrinth.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b MainWindow.xaml.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Medkit.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Player.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b SpecialCell.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b SpecialCellsManager.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Teleport.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Undead.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b App.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b App.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b Labyrinth_Content.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b MainWindow.g.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAL \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b MainWindow.g.i.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAO \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/{\b AssemblyInfo.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/{\b Resources.Designer.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAS \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/{\b Settings.Designer.cs} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'EE \'E8\'EC\'E5\'ED LabyrinthNS\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS}
+{\xe \v LabyrinthNS}
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Properties}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b App}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF App.xaml }}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Bandit}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Cell}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b God}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Grave}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Labyrinth}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b MainWindow}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF MainWindow.xaml }}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Medkit}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Player}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b SpecialCell}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b SpecialCellsManager}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Teleport}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Undead}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'FF\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b CellState} \{ {\b CellState.Close}, 
+{\b CellState.Open}
+ \}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'FF\par
+\pard\plain 
+{\xe \v CellState\:LabyrinthNS}
+{\xe \v LabyrinthNS\:CellState}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b LabyrinthNS.CellState}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+\'DD\'EB\'E5\'EC\'E5\'ED\'F2\'FB \'EF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'E9:\par}
+\pard\plain \s61\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Close\:LabyrinthNS}
+{\xe \v LabyrinthNS\:Close}
+{\qr Close{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+\cell }{\cell }{\row }
+{\xe \v Open\:LabyrinthNS}
+{\xe \v LabyrinthNS\:Open}
+{\qr Open{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+\cell }{\cell }{\row }
+}
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'EE \'E8\'EC\'E5\'ED LabyrinthNS.Properties\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Properties}
+{\xe \v LabyrinthNS.Properties}
+{\bkmkstart AAAAAAAAEU}
+{\bkmkend AAAAAAAAEU}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Resources}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'F0\'E5\'F1\'F3\'F0\'F1\'EE\'E2 \'F1\'EE \'F1\'F2\'F0\'EE\'E3\'E8\'EC \'F2\'E8\'EF\'EE\'EC \'E4\'EB\'FF \'EF\'EE\'E8\'F1\'EA\'E0 \'EB\'EE\'EA\'E0\'EB\'E8\'E7\'EE\'E2\'E0\'ED\'ED\'FB\'F5 \'F1\'F2\'F0\'EE\'EA \'E8 \'EF\'F0. }}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Settings}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB{\tc \v \'CA\'EB\'E0\'F1\'F1\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.App\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.App}
+{\xe \v LabyrinthNS.App}
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF App.xaml }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.App:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_app__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.App:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_app__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F1\'F2\'E0\'F2\'E8\'F7\'E5\'F1\'EA\'E8\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b Main} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Application Entry Point. }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static void {\b Main} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Application Entry Point. }{
+}\par
+}}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF App.xaml \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b App} \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v InitializeComponent\:LabyrinthNS::App}
+{\xe \v LabyrinthNS::App\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.App.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_app_a97fe37c60b3a38dfd95fe442e11152ef_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v InitializeComponent\:LabyrinthNS::App}
+{\xe \v LabyrinthNS::App\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.App.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v Main\:LabyrinthNS::App}
+{\xe \v LabyrinthNS::App\:Main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void LabyrinthNS.App.Main (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Application Entry Point. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_app_afd1f7525fc7936e0944babe6eaa6a2ab_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Main\:LabyrinthNS::App}
+{\xe \v LabyrinthNS::App\:Main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static void LabyrinthNS.App.Main (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Application Entry Point. }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_app_afd1f7525fc7936e0944babe6eaa6a2ab_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b App.xaml.cs}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b App.g.cs}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b App.g.i.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.Bandit\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Bandit}
+{\xe \v LabyrinthNS.Bandit}
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.Bandit:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_bandit__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.Bandit:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_bandit__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Bandit} (int x=0, int y=0)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Action} ({\b Player} player)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Draw} (Canvas mCanvas, string imageURI)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Bandit\:LabyrinthNS::Bandit}
+{\xe \v LabyrinthNS::Bandit\:Bandit}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.Bandit.Bandit (int  {\i x} = {\f2 0}, int  {\i y} = {\f2 0})}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v Action\:LabyrinthNS::Bandit}
+{\xe \v LabyrinthNS::Bandit\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Bandit.Action ({\b Player}  {\i player}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v Draw\:LabyrinthNS::Bandit}
+{\xe \v LabyrinthNS::Bandit\:Draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Bandit.Draw (Canvas  {\i mCanvas}, string  {\i imageURI}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Bandit.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.Cell\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Cell}
+{\xe \v LabyrinthNS.Cell}
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.Cell:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_cell__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Cell} (Point currentPosition)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'D1\'E2\'EE\'E9\'F1\'F2\'E2\'E0\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CellState} {\b Left}{\f2  [get, set]}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CellState} {\b Right}{\f2  [get, set]}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CellState} {\b Bottom}{\f2  [get, set]}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b CellState} {\b Top}{\f2  [get, set]}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b Visited}{\f2  [get, set]}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Point {\b Position}{\f2  [get, set]}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Cell\:LabyrinthNS::Cell}
+{\xe \v LabyrinthNS::Cell\:Cell}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.Cell.Cell (Point  {\i currentPosition})}}
+\par
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'EB\'ED\'FB\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'F1\'E2\'EE\'E9\'F1\'F2\'E2\par
+\pard\plain 
+{\xe \v Bottom\:LabyrinthNS::Cell}
+{\xe \v LabyrinthNS::Cell\:Bottom}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b CellState} LabyrinthNS.Cell.Bottom{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Left\:LabyrinthNS::Cell}
+{\xe \v LabyrinthNS::Cell\:Left}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b CellState} LabyrinthNS.Cell.Left{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Position\:LabyrinthNS::Cell}
+{\xe \v LabyrinthNS::Cell\:Position}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Point LabyrinthNS.Cell.Position{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Right\:LabyrinthNS::Cell}
+{\xe \v LabyrinthNS::Cell\:Right}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b CellState} LabyrinthNS.Cell.Right{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Top\:LabyrinthNS::Cell}
+{\xe \v LabyrinthNS::Cell\:Top}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b CellState} LabyrinthNS.Cell.Top{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Visited\:LabyrinthNS::Cell}
+{\xe \v LabyrinthNS::Cell\:Visited}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool LabyrinthNS.Cell.Visited{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Cell.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.God\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.God}
+{\xe \v LabyrinthNS.God}
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.God:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_god__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.God:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_god__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b God} (int x=0, int y=0)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Action} ({\b Player} player)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Draw} (Canvas mCanvas, string imageURI)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+System.Drawing.Point {\b m_position}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v God\:LabyrinthNS::God}
+{\xe \v LabyrinthNS::God\:God}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.God.God (int  {\i x} = {\f2 0}, int  {\i y} = {\f2 0})}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v Action\:LabyrinthNS::God}
+{\xe \v LabyrinthNS::God\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.God.Action ({\b Player}  {\i player}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v Draw\:LabyrinthNS::God}
+{\xe \v LabyrinthNS::God\:Draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.God.Draw (Canvas  {\i mCanvas}, string  {\i imageURI}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v m_position\:LabyrinthNS::God}
+{\xe \v LabyrinthNS::God\:m_position}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+System.Drawing.Point LabyrinthNS.God.m_position{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b God.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.Grave\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Grave}
+{\xe \v LabyrinthNS.Grave}
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.Grave:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_grave__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.Grave:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_grave__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Grave} (int x=0, int y=0)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Action} ({\b Player} player)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Draw} (Canvas mCanvas, string imageURI)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Grave\:LabyrinthNS::Grave}
+{\xe \v LabyrinthNS::Grave\:Grave}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.Grave.Grave (int  {\i x} = {\f2 0}, int  {\i y} = {\f2 0})}}
+\par
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v Action\:LabyrinthNS::Grave}
+{\xe \v LabyrinthNS::Grave\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Grave.Action ({\b Player}  {\i player}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v Draw\:LabyrinthNS::Grave}
+{\xe \v LabyrinthNS::Grave\:Draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Grave.Draw (Canvas  {\i mCanvas}, string  {\i imageURI}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Grave.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.Labyrinth\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Labyrinth}
+{\xe \v LabyrinthNS.Labyrinth}
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.Labyrinth:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_labyrinth__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b RandomGeneration} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b Render} (Canvas mCanvas)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b CheckForPlayerWin} ({\b Player} player)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F1\'F2\'E0\'F2\'E8\'F7\'E5\'F1\'EA\'E8\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static {\b Labyrinth} {\b GetInstance} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'D1\'E2\'EE\'E9\'F1\'F2\'E2\'E0\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Cell} [,] {\b cellsArray}{\f2  [get, set]}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b DrawEnd} (Canvas mCanvas)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b m_width}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b m_height}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Cell} [,] {\b m_cellsArray}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F1\'F2\'E0\'F2\'E8\'F7\'E5\'F1\'EA\'E8\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static {\b Labyrinth} {\b instance}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v CheckForPlayerWin\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:CheckForPlayerWin}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Labyrinth.CheckForPlayerWin ({\b Player}  {\i player})}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_labyrinth_aaf62df32d6ba2bb20a8b723ea29423bc_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v DrawEnd\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:DrawEnd}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Labyrinth.DrawEnd (Canvas  {\i mCanvas}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_labyrinth_a5d00e47eee3b204f5ecc32489a94d81d_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v GetInstance\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:GetInstance}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static {\b Labyrinth} LabyrinthNS.Labyrinth.GetInstance (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v RandomGeneration\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:RandomGeneration}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Labyrinth.RandomGeneration ()}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_labyrinth_a02e8ed77e38bba888b9ae607ac5b7ecb_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Render\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:Render}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Labyrinth.Render (Canvas  {\i mCanvas})}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_labyrinth_aa8804d62f56eab7bb6562267fa11bc74_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_labyrinth_aa8804d62f56eab7bb6562267fa11bc74_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v instance\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:instance}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Labyrinth} LabyrinthNS.Labyrinth.instance{\f2 [static]}, {\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_cellsArray\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:m_cellsArray}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Cell} [,] LabyrinthNS.Labyrinth.m_cellsArray{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_height\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:m_height}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int LabyrinthNS.Labyrinth.m_height{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_width\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:m_width}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int LabyrinthNS.Labyrinth.m_width{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'EB\'ED\'FB\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'F1\'E2\'EE\'E9\'F1\'F2\'E2\par
+\pard\plain 
+{\xe \v cellsArray\:LabyrinthNS::Labyrinth}
+{\xe \v LabyrinthNS::Labyrinth\:cellsArray}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Cell} [,] LabyrinthNS.Labyrinth.cellsArray{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Labyrinth.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.MainWindow\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.MainWindow}
+{\xe \v LabyrinthNS.MainWindow}
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF MainWindow.xaml }}\par
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.MainWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.MainWindow:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b MainWindow} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b InitializeComponent} ()\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }{
+}\par
+}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b btnMoveUp_Click} (object sender, RoutedEventArgs e)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b btnMoveRight_Click} (object sender, RoutedEventArgs e)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b btnMoveDown_Click} (object sender, RoutedEventArgs e)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b btnMoveLeft_Click} (object sender, RoutedEventArgs e)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void System.Windows.Markup.IComponentConnector. {\b Connect} (int connectionId, object target)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void System.Windows.Markup.IComponentConnector. {\b Connect} (int connectionId, object target)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Player} {\b player} = {\b Player.GetInstance}()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Labyrinth} {\b labyrinth} = {\b LabyrinthNS.Labyrinth.GetInstance}()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SpecialCellsManager} {\b manager} = new {\b SpecialCellsManager}()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b _contentLoaded}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'E4\'F0\'EE\'E1\'ED\'EE\'E5 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'E5\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF MainWindow.xaml \par
+}
+
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\b MainWindow} \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v MainWindow\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:MainWindow}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.MainWindow.MainWindow ()}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_a56aa5a921b78830a714354dd31ab6609_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v btnMoveDown_Click\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:btnMoveDown_Click}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.MainWindow.btnMoveDown_Click (object  {\i sender}, RoutedEventArgs  {\i e}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_a948b453420cff9426e849a0ad42fceae_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_a948b453420cff9426e849a0ad42fceae_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v btnMoveLeft_Click\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:btnMoveLeft_Click}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.MainWindow.btnMoveLeft_Click (object  {\i sender}, RoutedEventArgs  {\i e}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_ae89984487255a5de54c5784b64a05e8e_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_ae89984487255a5de54c5784b64a05e8e_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v btnMoveRight_Click\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:btnMoveRight_Click}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.MainWindow.btnMoveRight_Click (object  {\i sender}, RoutedEventArgs  {\i e}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_aa66b94b51da286f92ace6001ac7460ab_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_aa66b94b51da286f92ace6001ac7460ab_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v btnMoveUp_Click\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:btnMoveUp_Click}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.MainWindow.btnMoveUp_Click (object  {\i sender}, RoutedEventArgs  {\i e}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_a3ec2870c94c24deff30b7345dc76c6bd_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_a3ec2870c94c24deff30b7345dc76c6bd_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Connect\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:Connect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void System.Windows.Markup.IComponentConnector. LabyrinthNS.MainWindow.Connect (int  {\i connectionId}, object  {\i target}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_a81c66d17c53c00d46be19e9a919e4cb8_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Connect\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:Connect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void System.Windows.Markup.IComponentConnector. LabyrinthNS.MainWindow.Connect (int  {\i connectionId}, object  {\i target}){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_a81c66d17c53c00d46be19e9a919e4cb8_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v InitializeComponent\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.MainWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}}
+{\xe \v InitializeComponent\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:InitializeComponent}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.MainWindow.InitializeComponent ()}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+InitializeComponent }}\par
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+}\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_main_window_a5310021b304e4503600035be295ffa9a_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v _contentLoaded\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:_contentLoaded}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool LabyrinthNS.MainWindow._contentLoaded{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v labyrinth\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:labyrinth}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Labyrinth} LabyrinthNS.MainWindow.labyrinth = {\b LabyrinthNS.Labyrinth.GetInstance}(){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v manager\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:manager}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SpecialCellsManager} LabyrinthNS.MainWindow.manager = new {\b SpecialCellsManager}(){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v player\:LabyrinthNS::MainWindow}
+{\xe \v LabyrinthNS::MainWindow\:player}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Player} LabyrinthNS.MainWindow.player = {\b Player.GetInstance}(){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'EE\'E2 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E0\'F5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b MainWindow.xaml.cs}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b MainWindow.g.cs}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/{\b MainWindow.g.i.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.Medkit\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Medkit}
+{\xe \v LabyrinthNS.Medkit}
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.Medkit:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_medkit__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.Medkit:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_medkit__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Medkit} (int x=0, int y=0)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Action} ({\b Player} player)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Draw} (Canvas mCanvas, string imageURI)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Medkit\:LabyrinthNS::Medkit}
+{\xe \v LabyrinthNS::Medkit\:Medkit}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.Medkit.Medkit (int  {\i x} = {\f2 0}, int  {\i y} = {\f2 0})}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v Action\:LabyrinthNS::Medkit}
+{\xe \v LabyrinthNS::Medkit\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Medkit.Action ({\b Player}  {\i player}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABI \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v Draw\:LabyrinthNS::Medkit}
+{\xe \v LabyrinthNS::Medkit\:Draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Medkit.Draw (Canvas  {\i mCanvas}, string  {\i imageURI}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Medkit.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.Player\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Player}
+{\xe \v LabyrinthNS.Player}
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.Player:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Player} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MoveRight} ({\b Cell}[,] labyrinth)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MoveLeft} ({\b Cell}[,] labyrinth)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MoveUp} ({\b Cell}[,] labyrinth)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b MoveDown} ({\b Cell}[,] labyrinth)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b DrawPosition} (Canvas mCanvas)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b UpdatePosition} (Canvas mCanvas)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b UpdateLivesCounter} (Label lbl)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b CheckForLoose} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F1\'F2\'E0\'F2\'E8\'F7\'E5\'F1\'EA\'E8\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static {\b Player} {\b GetInstance} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'D1\'E2\'EE\'E9\'F1\'F2\'E2\'E0\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b livesCounter}{\f2  [get, set]}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Point {\b arrayPosition}{\f2  [get, set]}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b CheckForTopCollision} ({\b Cell}[,] labyrinth)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b CheckForBottomCollision} ({\b Cell}[,] labyrinth)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b CheckForRightCollision} ({\b Cell}[,] labyrinth)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+bool {\b CheckForLeftCollision} ({\b Cell}[,] labyrinth)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Point {\b m_drawPosition}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Point {\b m_arrayPosition}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+System.Windows.Shapes.Rectangle {\b m_rect}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b m_livesCounter}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'F1\'F2\'E0\'F2\'E8\'F7\'E5\'F1\'EA\'E8\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+static {\b Player} {\b instance}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Player\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:Player}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.Player.Player ()}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a35e7d69325d2a70ac9b33cdf9422689e_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v CheckForBottomCollision\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:CheckForBottomCollision}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool LabyrinthNS.Player.CheckForBottomCollision ({\b Cell}  {\i labyrinth}[,]){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_aca487c192f9fb83d5af5937763f1e569_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v CheckForLeftCollision\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:CheckForLeftCollision}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool LabyrinthNS.Player.CheckForLeftCollision ({\b Cell}  {\i labyrinth}[,]){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_af50ab1f1d2dc5abb962d489d1c54309c_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v CheckForLoose\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:CheckForLoose}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Player.CheckForLoose ()}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a4ad8cae21637666981c848780e8396e2_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v CheckForRightCollision\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:CheckForRightCollision}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool LabyrinthNS.Player.CheckForRightCollision ({\b Cell}  {\i labyrinth}[,]){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a0adb6d9eddff7369d70997afd2892550_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v CheckForTopCollision\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:CheckForTopCollision}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool LabyrinthNS.Player.CheckForTopCollision ({\b Cell}  {\i labyrinth}[,]){\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a4a5ec47c3e0208babadf2a05c68bd44c_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v DrawPosition\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:DrawPosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Player.DrawPosition (Canvas  {\i mCanvas})}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a2f047e40354dbb89ea297185d3cb8975_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v GetInstance\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:GetInstance}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+static {\b Player} LabyrinthNS.Player.GetInstance (){\f2 [static]}}}
+\par
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a2b6ed864e6dc7e9e13a1d098a03cc78f_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v MoveDown\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:MoveDown}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Player.MoveDown ({\b Cell}  {\i labyrinth}[,])}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a9a8e65221c08fe42f26c2eaf207d5d9c_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a9a8e65221c08fe42f26c2eaf207d5d9c_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v MoveLeft\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:MoveLeft}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Player.MoveLeft ({\b Cell}  {\i labyrinth}[,])}}
+\par
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_ac02f2d5a7f6d5d9e751610b1702157bb_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_ac02f2d5a7f6d5d9e751610b1702157bb_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v MoveRight\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:MoveRight}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Player.MoveRight ({\b Cell}  {\i labyrinth}[,])}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a1afd2d2550ae65fed5f9145a2ba8fc9a_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a1afd2d2550ae65fed5f9145a2ba8fc9a_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v MoveUp\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:MoveUp}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Player.MoveUp ({\b Cell}  {\i labyrinth}[,])}}
+\par
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a7a83a418e014e875fc2992e71af7b37f_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a7a83a418e014e875fc2992e71af7b37f_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v UpdateLivesCounter\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:UpdateLivesCounter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Player.UpdateLivesCounter (Label  {\i lbl})}}
+\par
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_af48ef15a02ee60269c31793058c77eef_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v UpdatePosition\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:UpdatePosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.Player.UpdatePosition (Canvas  {\i mCanvas})}}
+\par
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_player_a6feb0d97d65e618c6d6f1bb6c99acf9e_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v instance\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:instance}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b Player} LabyrinthNS.Player.instance{\f2 [static]}, {\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_arrayPosition\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:m_arrayPosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Point LabyrinthNS.Player.m_arrayPosition{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_drawPosition\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:m_drawPosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Point LabyrinthNS.Player.m_drawPosition{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_livesCounter\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:m_livesCounter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int LabyrinthNS.Player.m_livesCounter{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_rect\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:m_rect}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+System.Windows.Shapes.Rectangle LabyrinthNS.Player.m_rect{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'EE\'EB\'ED\'FB\'E9 \'F1\'EF\'E8\'F1\'EE\'EA \'F1\'E2\'EE\'E9\'F1\'F2\'E2\par
+\pard\plain 
+{\xe \v arrayPosition\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:arrayPosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Point LabyrinthNS.Player.arrayPosition{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v livesCounter\:LabyrinthNS::Player}
+{\xe \v LabyrinthNS::Player\:livesCounter}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int LabyrinthNS.Player.livesCounter{\f2 [get]}, {\f2 [set]}}}
+\par
+{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Player.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.SpecialCell\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.SpecialCell}
+{\xe \v LabyrinthNS.SpecialCell}
+{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.SpecialCell:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_special_cell__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.SpecialCell:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_special_cell__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SpecialCell} (int x, int y)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b Action} ({\b Cell}[,] labyrinth, {\b Player} player, Canvas mCanvas)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b Action} ({\b Player} player)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b Action} ({\b Cell}[,] labyrinth, {\b Player} player)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual bool {\b CheckForIntersectionWithPlayer} ({\b Player} player)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b Draw} (Canvas mCanvas, string imageURI)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Point {\b m_position}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v SpecialCell\:LabyrinthNS::SpecialCell}
+{\xe \v LabyrinthNS::SpecialCell\:SpecialCell}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.SpecialCell.SpecialCell (int  {\i x}, int  {\i y})}}
+\par
+{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v Action\:LabyrinthNS::SpecialCell}
+{\xe \v LabyrinthNS::SpecialCell\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void LabyrinthNS.SpecialCell.Action ({\b Cell}  {\i labyrinth}[,], {\b Player}  {\i player}, Canvas  {\i mCanvas}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2\'F1\'FF \'E2 {\b LabyrinthNS.Teleport} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEC \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v Action\:LabyrinthNS::SpecialCell}
+{\xe \v LabyrinthNS::SpecialCell\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void LabyrinthNS.SpecialCell.Action ({\b Player}  {\i player}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2\'F1\'FF \'E2 {\b LabyrinthNS.God} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABV \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b LabyrinthNS.Medkit} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADB \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b LabyrinthNS.Grave} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b LabyrinthNS.Bandit} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v Action\:LabyrinthNS::SpecialCell}
+{\xe \v LabyrinthNS::SpecialCell\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void LabyrinthNS.SpecialCell.Action ({\b Cell}  {\i labyrinth}[,], {\b Player}  {\i player}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAED}
+{\bkmkend AAAAAAAAED}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2\'F1\'FF \'E2 {\b LabyrinthNS.Undead} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEE \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v CheckForIntersectionWithPlayer\:LabyrinthNS::SpecialCell}
+{\xe \v LabyrinthNS::SpecialCell\:CheckForIntersectionWithPlayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual bool LabyrinthNS.SpecialCell.CheckForIntersectionWithPlayer ({\b Player}  {\i player}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAEF}
+{\bkmkend AAAAAAAAEF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v Draw\:LabyrinthNS::SpecialCell}
+{\xe \v LabyrinthNS::SpecialCell\:Draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void LabyrinthNS.SpecialCell.Draw (Canvas  {\i mCanvas}, string  {\i imageURI}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2\'F1\'FF \'E2 {\b LabyrinthNS.Undead} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEG \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b LabyrinthNS.Teleport} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEH \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b LabyrinthNS.God} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABW \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b LabyrinthNS.Grave} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACB \\*MERGEFORMAT}{\fldrslt pagenum}}}), {\b LabyrinthNS.Medkit} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAADC \\*MERGEFORMAT}{\fldrslt pagenum}}}) \'E8 {\b LabyrinthNS.Bandit} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABJ \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v m_position\:LabyrinthNS::SpecialCell}
+{\xe \v LabyrinthNS::SpecialCell\:m_position}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Point LabyrinthNS.SpecialCell.m_position{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEI}
+{\bkmkend AAAAAAAAEI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b SpecialCell.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.SpecialCellsManager\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.SpecialCellsManager}
+{\xe \v LabyrinthNS.SpecialCellsManager}
+{\bkmkstart AAAAAAAAEJ}
+{\bkmkend AAAAAAAAEJ}
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.SpecialCellsManager:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_special_cells_manager__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SpecialCellsManager} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b RandomGeneration} ({\b Cell}[,] labyrinthArray)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b RandomPositionArrange} ({\b Cell}[,] labyrinthArray)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b Render} (Canvas mCanvas)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b CheckForIntersectionWithPlayer} ({\b Player} player, {\b Cell}[,] labyrinth, Canvas mCanvas)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C7\'E0\'EA\'F0\'FB\'F2\'FB\'E5 \'E4\'E0\'ED\'ED\'FB\'E5\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+List< {\b SpecialCell} > {\b m_specialCellsList}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v SpecialCellsManager\:LabyrinthNS::SpecialCellsManager}
+{\xe \v LabyrinthNS::SpecialCellsManager\:SpecialCellsManager}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.SpecialCellsManager.SpecialCellsManager ()}}
+\par
+{\bkmkstart AAAAAAAAEK}
+{\bkmkend AAAAAAAAEK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v CheckForIntersectionWithPlayer\:LabyrinthNS::SpecialCellsManager}
+{\xe \v LabyrinthNS::SpecialCellsManager\:CheckForIntersectionWithPlayer}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.SpecialCellsManager.CheckForIntersectionWithPlayer ({\b Player}  {\i player}, {\b Cell}  {\i labyrinth}[,], Canvas  {\i mCanvas})}}
+\par
+{\bkmkstart AAAAAAAAEL}
+{\bkmkend AAAAAAAAEL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_special_cells_manager_adf2246fd02359a147bf6acbb75c8a35c_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v RandomGeneration\:LabyrinthNS::SpecialCellsManager}
+{\xe \v LabyrinthNS::SpecialCellsManager\:RandomGeneration}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.SpecialCellsManager.RandomGeneration ({\b Cell}  {\i labyrinthArray}[,])}}
+\par
+{\bkmkstart AAAAAAAAEM}
+{\bkmkend AAAAAAAAEM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_special_cells_manager_a7570a66c22b258c9ef8a4c635592007f_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v RandomPositionArrange\:LabyrinthNS::SpecialCellsManager}
+{\xe \v LabyrinthNS::SpecialCellsManager\:RandomPositionArrange}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.SpecialCellsManager.RandomPositionArrange ({\b Cell}  {\i labyrinthArray}[,])}}
+\par
+{\bkmkstart AAAAAAAAEN}
+{\bkmkend AAAAAAAAEN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_special_cells_manager_ab53a7b8d9eec5ef823e104d8381011a3_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Render\:LabyrinthNS::SpecialCellsManager}
+{\xe \v LabyrinthNS::SpecialCellsManager\:Render}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void LabyrinthNS.SpecialCellsManager.Render (Canvas  {\i mCanvas})}}
+\par
+{\bkmkstart AAAAAAAAEO}
+{\bkmkend AAAAAAAAEO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'E0 \'F4\'F3\'ED\'EA\'F6\'E8\'E8:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_special_cells_manager_afceb724bf0cdd6785064be294652e0ad_icgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'C4\'E0\'ED\'ED\'FB\'E5 \'EA\'EB\'E0\'F1\'F1\'E0\par
+\pard\plain 
+{\xe \v m_specialCellsList\:LabyrinthNS::SpecialCellsManager}
+{\xe \v LabyrinthNS::SpecialCellsManager\:m_specialCellsList}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+List<{\b SpecialCell}> LabyrinthNS.SpecialCellsManager.m_specialCellsList{\f2 [private]}}}
+\par
+{\bkmkstart AAAAAAAAEP}
+{\bkmkend AAAAAAAAEP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b SpecialCellsManager.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.Teleport\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Teleport}
+{\xe \v LabyrinthNS.Teleport}
+{\bkmkstart AAAAAAAAEQ}
+{\bkmkend AAAAAAAAEQ}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.Teleport:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_teleport__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.Teleport:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_teleport__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Teleport} (int x=0, int y=0)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Action} ({\b Cell}[,] labyrinth, {\b Player} player, Canvas mCanvas)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Draw} (Canvas mCanvas, string imageURI)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Teleport\:LabyrinthNS::Teleport}
+{\xe \v LabyrinthNS::Teleport\:Teleport}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.Teleport.Teleport (int  {\i x} = {\f2 0}, int  {\i y} = {\f2 0})}}
+\par
+{\bkmkstart AAAAAAAAER}
+{\bkmkend AAAAAAAAER}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v Action\:LabyrinthNS::Teleport}
+{\xe \v LabyrinthNS::Teleport\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Teleport.Action ({\b Cell}  {\i labyrinth}[,], {\b Player}  {\i player}, Canvas  {\i mCanvas}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAEB \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_teleport_aadd7e04a63a2ee0a5b5b6af508872475_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Draw\:LabyrinthNS::Teleport}
+{\xe \v LabyrinthNS::Teleport\:Draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Teleport.Draw (Canvas  {\i mCanvas}, string  {\i imageURI}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAEH}
+{\bkmkend AAAAAAAAEH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Teleport.cs}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'CA\'EB\'E0\'F1\'F1 LabyrinthNS.Undead\par \pard\plain 
+{\tc\tcl2 \v LabyrinthNS.Undead}
+{\xe \v LabyrinthNS.Undead}
+{\bkmkstart AAAAAAAAES}
+{\bkmkend AAAAAAAAES}
+\'C3\'F0\'E0\'F4 \'ED\'E0\'F1\'EB\'E5\'E4\'EE\'E2\'E0\'ED\'E8\'FF:LabyrinthNS.Undead:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_undead__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\'C3\'F0\'E0\'F4 \'F1\'E2\'FF\'E7\'E5\'E9 \'EA\'EB\'E0\'F1\'F1\'E0 LabyrinthNS.Undead:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_undead__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CE\'F2\'EA\'F0\'FB\'F2\'FB\'E5 \'F7\'EB\'E5\'ED\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Undead} (int x=0, int y=0)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Action} ({\b Cell}[,] labyrinth, {\b Player} player)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+override void {\b Draw} (Canvas mCanvas, string imageURI)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EE\'ED\'F1\'F2\'F0\'F3\'EA\'F2\'EE\'F0(\'FB)\par
+\pard\plain 
+{\xe \v Undead\:LabyrinthNS::Undead}
+{\xe \v LabyrinthNS::Undead\:Undead}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+LabyrinthNS.Undead.Undead (int  {\i x} = {\f2 0}, int  {\i y} = {\f2 0})}}
+\par
+{\bkmkstart AAAAAAAAET}
+{\bkmkend AAAAAAAAET}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CC\'E5\'F2\'EE\'E4\'FB\par
+\pard\plain 
+{\xe \v Action\:LabyrinthNS::Undead}
+{\xe \v LabyrinthNS::Undead\:Action}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Undead.Action ({\b Cell}  {\i labyrinth}[,], {\b Player}  {\i player}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAEE}
+{\bkmkend AAAAAAAAEE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAAED \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+\'C3\'F0\'E0\'F4 \'E2\'FB\'E7\'EE\'E2\'EE\'E2:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_labyrinth_n_s_1_1_undead_abab37a82b8a65ee9f9ecd4ecae2d245b_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}
+{\xe \v Draw\:LabyrinthNS::Undead}
+{\xe \v LabyrinthNS::Undead\:Draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+override void LabyrinthNS.Undead.Draw (Canvas  {\i mCanvas}, string  {\i imageURI}){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAAEG}
+{\bkmkend AAAAAAAAEG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+\'CF\'E5\'F0\'E5\'EE\'EF\'F0\'E5\'E4\'E5\'EB\'FF\'E5\'F2 \'EC\'E5\'F2\'EE\'E4 \'EF\'F0\'E5\'E4\'EA\'E0 {\b LabyrinthNS.SpecialCell} ({\i \'F1\'F2\'F0.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\'CE\'E1\'FA\'FF\'E2\'EB\'E5\'ED\'E8\'FF \'E8 \'EE\'EF\'E8\'F1\'E0\'ED\'E8\'FF \'F7\'EB\'E5\'ED\'EE\'E2 \'EA\'EB\'E0\'F1\'F1\'E0 \'ED\'E0\'F5\'EE\'E4\'FF\'F2\'F1\'FF \'E2 \'F4\'E0\'E9\'EB\'E5:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+C:/Users/Tim/Desktop/Labyrinth/Labyrinth/{\b Undead.cs}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\'D4\'E0\'E9\'EB\'FB{\tc \v \'D4\'E0\'E9\'EB\'FB}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/App.xaml.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/App.xaml.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/App.xaml.cs}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.App}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF App.xaml }}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Bandit.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Bandit.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Bandit.cs}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Bandit}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Cell.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Cell.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Cell.cs}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Cell}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'E5\'F0\'E5\'F7\'E8\'F1\'EB\'E5\'ED\'E8\'FF\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b LabyrinthNS.CellState} \{ {\b LabyrinthNS.CellState.Close}, 
+{\b LabyrinthNS.CellState.Open}
+ \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/God.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/God.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/God.cs}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.God}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Grave.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Grave.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Grave.cs}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Grave}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Labyrinth.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Labyrinth.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Labyrinth.cs}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Labyrinth}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/MainWindow.xaml.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/MainWindow.xaml.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/MainWindow.xaml.cs}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.MainWindow}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF MainWindow.xaml }}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Medkit.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Medkit.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Medkit.cs}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Medkit}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/App.g.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/App.g.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/App.g.cs}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.App}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF App.xaml }}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/App.g.i.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/App.g.i.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/App.g.i.cs}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.App}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF App.xaml }}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/Labyrinth_Content.g.i.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/Labyrinth_Content.g.i.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/Labyrinth_Content.g.i.cs}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/MainWindow.g.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/MainWindow.g.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/MainWindow.g.cs}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.MainWindow}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF MainWindow.xaml }}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/MainWindow.g.i.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/MainWindow.g.i.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/MainWindow.g.i.cs}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.MainWindow}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CB\'EE\'E3\'E8\'EA\'E0 \'E2\'E7\'E0\'E8\'EC\'EE\'E4\'E5\'E9\'F1\'F2\'E2\'E8\'FF \'E4\'EB\'FF MainWindow.xaml }}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Player.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Player.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Player.cs}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Player}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/AssemblyInfo.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/AssemblyInfo.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/AssemblyInfo.cs}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/Resources.Designer.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/Resources.Designer.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/Resources.Designer.cs}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Properties.Resources}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\'CA\'EB\'E0\'F1\'F1 \'F0\'E5\'F1\'F3\'F0\'F1\'EE\'E2 \'F1\'EE \'F1\'F2\'F0\'EE\'E3\'E8\'EC \'F2\'E8\'EF\'EE\'EC \'E4\'EB\'FF \'EF\'EE\'E8\'F1\'EA\'E0 \'EB\'EE\'EA\'E0\'EB\'E8\'E7\'EE\'E2\'E0\'ED\'ED\'FB\'F5 \'F1\'F2\'F0\'EE\'EA \'E8 \'EF\'F0. }}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS.Properties}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/Settings.Designer.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/Settings.Designer.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Properties/Settings.Designer.cs}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Properties.Settings}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS.Properties}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/SpecialCell.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/SpecialCell.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/SpecialCell.cs}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.SpecialCell}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/SpecialCellsManager.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/SpecialCellsManager.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/SpecialCellsManager.cs}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.SpecialCellsManager}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Teleport.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Teleport.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Teleport.cs}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Teleport}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\'D4\'E0\'E9\'EB C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Undead.cs\par \pard\plain 
+{\tc\tcl2 \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Undead.cs}
+{\xe \v C:/Users/Tim/Desktop/Labyrinth/Labyrinth/Undead.cs}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CA\'EB\'E0\'F1\'F1\'FB\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b LabyrinthNS.Undead}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+\'CF\'F0\'EE\'F1\'F2\'F0\'E0\'ED\'F1\'F2\'E2\'E0 \'E8\'EC\'E5\'ED\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b LabyrinthNS}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC\par 
+\pard\plain 
+{\tc \v \'C0\'EB\'F4\'E0\'E2\'E8\'F2\'ED\'FB\'E9 \'F3\'EA\'E0\'E7\'E0\'F2\'E5\'EB\'FC}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}
